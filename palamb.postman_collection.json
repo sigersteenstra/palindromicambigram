@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "3a586985-4a7c-45f7-af04-3420a81cb9c2",
+		"name": "palamb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "is palindromic ambigram",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get palindromic ambigrams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}

@@ -22,8 +22,8 @@ def is_palindromeambigram(path: str):
 
 @get_palindromeambigram_v1.route("/getpalams", methods=['GET'])
 def get_palindromeambigram():
-    from_date: str = request.args.get('from', '01010000')
-    to_date: str = request.args.get('to', '31129999')
+    from_date: str = request.args.get('from', '01010001')
+    to_date: str = request.args.get('to', '30129999')
     if not validate(from_date) or not validate(to_date):
         return Response(), 400
     dates: list = []
